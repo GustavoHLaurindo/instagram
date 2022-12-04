@@ -1,28 +1,68 @@
-@charset "utf-8";
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body{
-    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: end;
-}
-main.principal{
-    height: 400px;
-    width: 300px;
-    display: flex;
-    padding: 40px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    
+    background-color: #FAFAFAFA;
+    
 }
-.imagem i{
-    background-image: url(../imagens/Instagram-Logo.png);
-    width: 300px;
-    height: 30px;
-    display: inline-block;
-    background-size: cover;
+div.card{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    border: 1px solid rgb(184, 183, 183);
+    width: 360px;
+   
 }
+div.card h2{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    width: 220px;
+    margin-bottom: 10px;
+    
+}
+div.card .botao{
+    text-align: center;
+    background-color: rgba(84, 167, 255, 0.988);
+    border-radius: 6px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+div.card .botao a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.linha{
+    margin: 9px 42px 18px;
+    width: 100%;
+}
+.linha-filho{
+    position: relative;
+    display: flex;
+    
+}
+.ou{
+    text-align: center;
+}
+.linha-item{
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+
